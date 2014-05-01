@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96437EB2138C2A1500CFA98D /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96437EB1138C2A1500CFA98D /* Entitlements.plist */; };
+		966BD8C313893DC20031D0D3 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 966BD8BC13893DC20031D0D3 /* Icon-29.png */; };
+		966BD8C413893DC20031D0D3 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 966BD8BD13893DC20031D0D3 /* Icon-50.png */; };
+		966BD8C513893DC20031D0D3 /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 966BD8BE13893DC20031D0D3 /* Icon-58.png */; };
+		966BD8C613893DC20031D0D3 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 966BD8BF13893DC20031D0D3 /* Icon-72.png */; };
+		966BD8C713893DC20031D0D3 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 966BD8C013893DC20031D0D3 /* Icon-114.png */; };
+		966BD8C813893DC20031D0D3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 966BD8C113893DC20031D0D3 /* Icon.png */; };
+		966BD8C913893DC20031D0D3 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 966BD8C213893DC20031D0D3 /* iTunesArtwork.png */; };
+		9686F4FD1387B7FB00A570C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9686F4FC1387B7FB00A570C1 /* UIKit.framework */; };
+		9686F4FF1387B7FB00A570C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9686F4FE1387B7FB00A570C1 /* Foundation.framework */; };
+		9686F5011387B7FB00A570C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9686F5001387B7FB00A570C1 /* CoreGraphics.framework */; };
+		9686F5071387B7FB00A570C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9686F5051387B7FB00A570C1 /* InfoPlist.strings */; };
+		9686F50A1387B7FB00A570C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686F5091387B7FB00A570C1 /* main.m */; };
+		9686F50D1387B7FB00A570C1 /* iSubnetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686F50C1387B7FB00A570C1 /* iSubnetAppDelegate.m */; };
+		9686F5101387B7FB00A570C1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9686F50E1387B7FB00A570C1 /* MainWindow.xib */; };
+		9686F5131387B7FB00A570C1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686F5121387B7FB00A570C1 /* RootViewController.m */; };
+		9686F5161387B7FB00A570C1 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9686F5141387B7FB00A570C1 /* RootViewController.xib */; };
+		9686F51E1387BE5000A570C1 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 9686F51D1387BE5000A570C1 /* images */; };
+		9686F5211387CBDF00A570C1 /* Subneter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686F5201387CBDF00A570C1 /* Subneter.m */; };
+		96977EDB1389913200216D8E /* CalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96977ED91389913200216D8E /* CalcViewController.m */; };
+		96977EDC1389913200216D8E /* CalcViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96977EDA1389913200216D8E /* CalcViewController.xib */; };
+		96977EDF138996EB00216D8E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 96977EDE138996EB00216D8E /* Default.png */; };
+		96977EE2138997D700216D8E /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 96977EE0138997D700216D8E /* Default-Landscape~ipad.png */; };
+		96977EE3138997D700216D8E /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 96977EE1138997D700216D8E /* Default-Portrait~ipad.png */; };
+		96C6F618138C107A00852BCD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C6F617138C107A00852BCD /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96437EB1138C2A1500CFA98D /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		966BD8BC13893DC20031D0D3 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
+		966BD8BD13893DC20031D0D3 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		966BD8BE13893DC20031D0D3 /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-58.png"; sourceTree = "<group>"; };
+		966BD8BF13893DC20031D0D3 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		966BD8C013893DC20031D0D3 /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114.png"; sourceTree = "<group>"; };
+		966BD8C113893DC20031D0D3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		966BD8C213893DC20031D0D3 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		9686F4F81387B7FB00A570C1 /* iSubnet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSubnet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9686F4FC1387B7FB00A570C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9686F4FE1387B7FB00A570C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9686F5001387B7FB00A570C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9686F5041387B7FB00A570C1 /* iSubnet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSubnet-Info.plist"; sourceTree = "<group>"; };
+		9686F5061387B7FB00A570C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9686F5081387B7FB00A570C1 /* iSubnet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSubnet-Prefix.pch"; sourceTree = "<group>"; };
+		9686F5091387B7FB00A570C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9686F50B1387B7FB00A570C1 /* iSubnetAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iSubnetAppDelegate.h; sourceTree = "<group>"; };
+		9686F50C1387B7FB00A570C1 /* iSubnetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSubnetAppDelegate.m; sourceTree = "<group>"; };
+		9686F50F1387B7FB00A570C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9686F5111387B7FB00A570C1 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9686F5121387B7FB00A570C1 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9686F5151387B7FB00A570C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		9686F51D1387BE5000A570C1 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		9686F51F1387CBDF00A570C1 /* Subneter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subneter.h; sourceTree = "<group>"; };
+		9686F5201387CBDF00A570C1 /* Subneter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subneter.m; sourceTree = "<group>"; };
+		96977ED81389913200216D8E /* CalcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcViewController.h; sourceTree = "<group>"; };
+		96977ED91389913200216D8E /* CalcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcViewController.m; sourceTree = "<group>"; };
+		96977EDA1389913200216D8E /* CalcViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalcViewController.xib; sourceTree = "<group>"; };
+		96977EDE138996EB00216D8E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		96977EE0138997D700216D8E /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		96977EE1138997D700216D8E /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		96C6F617138C107A00852BCD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9686F4F51387B7FB00A570C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9686F4FD1387B7FB00A570C1 /* UIKit.framework in Frameworks */,
+				9686F4FF1387B7FB00A570C1 /* Foundation.framework in Frameworks */,
+				9686F5011387B7FB00A570C1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9621F1BA1389456200C25F1D /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				96977EE0138997D700216D8E /* Default-Landscape~ipad.png */,
+				96977EE1138997D700216D8E /* Default-Portrait~ipad.png */,
+				96977EDE138996EB00216D8E /* Default.png */,
+				96C6F617138C107A00852BCD /* Default@2x.png */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		966BD8CB13893DCA0031D0D3 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				966BD8BC13893DC20031D0D3 /* Icon-29.png */,
+				966BD8BD13893DC20031D0D3 /* Icon-50.png */,
+				966BD8BE13893DC20031D0D3 /* Icon-58.png */,
+				966BD8BF13893DC20031D0D3 /* Icon-72.png */,
+				966BD8C013893DC20031D0D3 /* Icon-114.png */,
+				966BD8C113893DC20031D0D3 /* Icon.png */,
+				966BD8C213893DC20031D0D3 /* iTunesArtwork.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		9686F4ED1387B7FB00A570C1 = {
+			isa = PBXGroup;
+			children = (
+				96437EB1138C2A1500CFA98D /* Entitlements.plist */,
+				9686F5021387B7FB00A570C1 /* iSubnet */,
+				9686F4FB1387B7FB00A570C1 /* Frameworks */,
+				9686F4F91387B7FB00A570C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9686F4F91387B7FB00A570C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9686F4F81387B7FB00A570C1 /* iSubnet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9686F4FB1387B7FB00A570C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9686F4FC1387B7FB00A570C1 /* UIKit.framework */,
+				9686F4FE1387B7FB00A570C1 /* Foundation.framework */,
+				9686F5001387B7FB00A570C1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9686F5021387B7FB00A570C1 /* iSubnet */ = {
+			isa = PBXGroup;
+			children = (
+				9686F50B1387B7FB00A570C1 /* iSubnetAppDelegate.h */,
+				9686F50C1387B7FB00A570C1 /* iSubnetAppDelegate.m */,
+				9686F5111387B7FB00A570C1 /* RootViewController.h */,
+				9686F5121387B7FB00A570C1 /* RootViewController.m */,
+				96977ED81389913200216D8E /* CalcViewController.h */,
+				96977ED91389913200216D8E /* CalcViewController.m */,
+				9686F51F1387CBDF00A570C1 /* Subneter.h */,
+				9686F5201387CBDF00A570C1 /* Subneter.m */,
+				9686F51D1387BE5000A570C1 /* images */,
+				9686F5031387B7FB00A570C1 /* Supporting Files */,
+			);
+			path = iSubnet;
+			sourceTree = "<group>";
+		};
+		9686F5031387B7FB00A570C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9621F1BA1389456200C25F1D /* Default */,
+				9686F51C1387B81F00A570C1 /* XIB */,
+				966BD8CB13893DCA0031D0D3 /* Icons */,
+				9686F5041387B7FB00A570C1 /* iSubnet-Info.plist */,
+				9686F5051387B7FB00A570C1 /* InfoPlist.strings */,
+				9686F5081387B7FB00A570C1 /* iSubnet-Prefix.pch */,
+				9686F5091387B7FB00A570C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9686F51C1387B81F00A570C1 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				9686F50E1387B7FB00A570C1 /* MainWindow.xib */,
+				9686F5141387B7FB00A570C1 /* RootViewController.xib */,
+				96977EDA1389913200216D8E /* CalcViewController.xib */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9686F4F71387B7FB00A570C1 /* iSubnet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9686F5191387B7FC00A570C1 /* Build configuration list for PBXNativeTarget "iSubnet" */;
+			buildPhases = (
+				9686F4F41387B7FB00A570C1 /* Sources */,
+				9686F4F51387B7FB00A570C1 /* Frameworks */,
+				9686F4F61387B7FB00A570C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSubnet;
+			productName = iSubnet;
+			productReference = 9686F4F81387B7FB00A570C1 /* iSubnet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9686F4EF1387B7FB00A570C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 9686F4F21387B7FB00A570C1 /* Build configuration list for PBXProject "iSubnet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9686F4ED1387B7FB00A570C1;
+			productRefGroup = 9686F4F91387B7FB00A570C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9686F4F71387B7FB00A570C1 /* iSubnet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9686F4F61387B7FB00A570C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9686F5071387B7FB00A570C1 /* InfoPlist.strings in Resources */,
+				9686F5101387B7FB00A570C1 /* MainWindow.xib in Resources */,
+				9686F5161387B7FB00A570C1 /* RootViewController.xib in Resources */,
+				9686F51E1387BE5000A570C1 /* images in Resources */,
+				966BD8C313893DC20031D0D3 /* Icon-29.png in Resources */,
+				966BD8C413893DC20031D0D3 /* Icon-50.png in Resources */,
+				966BD8C513893DC20031D0D3 /* Icon-58.png in Resources */,
+				966BD8C613893DC20031D0D3 /* Icon-72.png in Resources */,
+				966BD8C713893DC20031D0D3 /* Icon-114.png in Resources */,
+				966BD8C813893DC20031D0D3 /* Icon.png in Resources */,
+				966BD8C913893DC20031D0D3 /* iTunesArtwork.png in Resources */,
+				96977EDC1389913200216D8E /* CalcViewController.xib in Resources */,
+				96977EDF138996EB00216D8E /* Default.png in Resources */,
+				96977EE2138997D700216D8E /* Default-Landscape~ipad.png in Resources */,
+				96977EE3138997D700216D8E /* Default-Portrait~ipad.png in Resources */,
+				96C6F618138C107A00852BCD /* Default@2x.png in Resources */,
+				96437EB2138C2A1500CFA98D /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9686F4F41387B7FB00A570C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9686F50A1387B7FB00A570C1 /* main.m in Sources */,
+				9686F50D1387B7FB00A570C1 /* iSubnetAppDelegate.m in Sources */,
+				9686F5131387B7FB00A570C1 /* RootViewController.m in Sources */,
+				9686F5211387CBDF00A570C1 /* Subneter.m in Sources */,
+				96977EDB1389913200216D8E /* CalcViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9686F5051387B7FB00A570C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9686F5061387B7FB00A570C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9686F50E1387B7FB00A570C1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9686F50F1387B7FB00A570C1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		9686F5141387B7FB00A570C1 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9686F5151387B7FB00A570C1 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9686F5171387B7FB00A570C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9686F5181387B7FB00A570C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		9686F51A1387B7FC00A570C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: DMYTRO DENYS (K4CTJ9JYDB)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSubnet/iSubnet-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "iSubnet/iSubnet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E2CD4030-D165-4023-8EF0-8144E42C786B";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9686F51B1387B7FC00A570C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: DMYTRO DENYS (K4CTJ9JYDB)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSubnet/iSubnet-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "iSubnet/iSubnet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E2CD4030-D165-4023-8EF0-8144E42C786B";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9686F4F21387B7FB00A570C1 /* Build configuration list for PBXProject "iSubnet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9686F5171387B7FB00A570C1 /* Debug */,
+				9686F5181387B7FB00A570C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9686F5191387B7FC00A570C1 /* Build configuration list for PBXNativeTarget "iSubnet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9686F51A1387B7FC00A570C1 /* Debug */,
+				9686F51B1387B7FC00A570C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9686F4EF1387B7FB00A570C1 /* Project object */;
+}

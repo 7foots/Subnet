@@ -1,0 +1,217 @@
+{
+    "assets": [
+        {
+            "asset": "iSubnet/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "iSubnet/en.lproj/MainWindow.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "iSubnet/en.lproj/RootViewController.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "iSubnet/images", 
+            "target": "images"
+        }, 
+        {
+            "asset": "iSubnet/Icon-29.png", 
+            "target": "Icon-29.png"
+        }, 
+        {
+            "asset": "iSubnet/Icon-50.png", 
+            "target": "Icon-50.png"
+        }, 
+        {
+            "asset": "iSubnet/Icon-58.png", 
+            "target": "Icon-58.png"
+        }, 
+        {
+            "asset": "iSubnet/Icon-72.png", 
+            "target": "Icon-72.png"
+        }, 
+        {
+            "asset": "iSubnet/Icon-114.png", 
+            "target": "Icon-114.png"
+        }, 
+        {
+            "asset": "iSubnet/Icon.png", 
+            "target": "Icon.png"
+        }, 
+        {
+            "asset": "iSubnet/iTunesArtwork.png", 
+            "target": "iTunesArtwork.png"
+        }, 
+        {
+            "asset": "iSubnet/CalcViewController.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "iSubnet/Default.png", 
+            "target": "Default.png"
+        }, 
+        {
+            "asset": "iSubnet/Default-Landscape~ipad.png", 
+            "target": "Default-Landscape~ipad.png"
+        }, 
+        {
+            "asset": "iSubnet/Default-Portrait~ipad.png", 
+            "target": "Default-Portrait~ipad.png"
+        }, 
+        {
+            "asset": "iSubnet/Default@2x.png", 
+            "target": "Default@2x.png"
+        }, 
+        {
+            "asset": "Entitlements.plist", 
+            "target": "Entitlements.plist"
+        }
+    ], 
+    "config": {
+        "APPLICATION_FULL_NAME": "iSubnet", 
+        "APPLICATION_IDENTIFIER": "com.denysdmytro.iSubnet", 
+        "APPLICATION_NAME": "iSubnet", 
+        "LONG_VERSION": "1.0", 
+        "SHORT_VERSION": "1.0", 
+        "TEMPLATE_VALUES": {
+            "PRODUCT_NAME": "iSubnet"
+        }
+    }, 
+    "defines": {
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 40000
+    }, 
+    "deps": [
+        "UIKit", 
+        "UIKit", 
+        "Foundation", 
+        "CoreGraphics"
+    ], 
+    "flags": [
+        "-DNS_BLOCK_ASSERTIONS=1", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wno-deprecated-declarations", 
+        "-Wreturn-type", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }
+    ], 
+    "header_paths": [
+        {
+            "header_path": "iSubnet-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "iSubnet-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "iSubnet-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "iSubnet-project-headers.hmap", 
+            "hmap": {
+                "CalcViewController.h": {
+                    "key": "CalcViewController.h", 
+                    "prefix": "iSubnet/", 
+                    "suffix": "CalcViewController.h"
+                }, 
+                "RootViewController.h": {
+                    "key": "RootViewController.h", 
+                    "prefix": "iSubnet/", 
+                    "suffix": "RootViewController.h"
+                }, 
+                "Subneter.h": {
+                    "key": "Subneter.h", 
+                    "prefix": "iSubnet/", 
+                    "suffix": "Subneter.h"
+                }, 
+                "iSubnet-Prefix.pch": {
+                    "key": "iSubnet-Prefix.pch", 
+                    "prefix": "iSubnet/", 
+                    "suffix": "iSubnet-Prefix.pch"
+                }, 
+                "iSubnetAppDelegate.h": {
+                    "key": "iSubnetAppDelegate.h", 
+                    "prefix": "iSubnet/", 
+                    "suffix": "iSubnetAppDelegate.h"
+                }
+            }, 
+            "type": "iquote"
+        }
+    ], 
+    "infoplists": [
+        "./iSubnet/iSubnet-Info.plist"
+    ], 
+    "libs": [], 
+    "modules": [], 
+    "pchs": [
+        "./iSubnet/iSubnet-Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "iSubnet/CalcViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "iSubnet/RootViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "iSubnet/Subneter.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "iSubnet/iSubnetAppDelegate.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "iSubnet/main.m"
+        }
+    ], 
+    "type": "app", 
+    "version": "1", 
+    "xcode_project": "iSubnet.xcodeproj"
+}
